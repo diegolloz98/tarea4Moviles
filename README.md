@@ -1,16 +1,25 @@
-# tarea4
+# App 9
 
-A new Flutter project.
+App para practicar los siguientes temas:
+- BLoC
+- Image picker
+- Local auth
+- UI
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Recuerda que despues de clonar el proyecto, abrir una terminal dentro de la carpeta del proyecto y ejecutar el comando:
 
-A few resources to get you started if this is your first Flutter project:
+```sh
+flutter packages get
+``` 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## App Screenshot
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+<img src="screenshot/Capture0.PNG" width="240" height="480" />
+<img src="screenshot/Capture1.PNG" width="240" height="480" />
+<img src="screenshot/Capture2.PNG" width="240" height="480" />
+<img src="screenshot/Capture3.PNG" width="240" height="480" />
+<img src="screenshot/Capture4.PNG" width="240" height="480" />
+
