@@ -23,20 +23,8 @@ class Profile extends StatefulWidget {
 
 class _ProfileState extends State<Profile> {
   final String _usersDataUrl = "https://api.sheety.co/12948897d56ef720d45bb409c83b07ad/dummyApi/cuentas";
-  var feature1EnablePulsingAnimation = true;
   ScreenshotController _screenshotController = ScreenshotController();
 
-  Future _getUserData() async {
-    try{
-      http.Response response = await http.get(Uri.parse(_usersDataUrl));
-      if(response.statusCode == HttpStatus.ok){
-        var result = jsonDecode(response.body);
-        return result;
-      }
-    }catch(e){
-      print(e);
-    }
-  }
   void initState() {
     // TODO: implement initState
     super.initState();
@@ -197,7 +185,6 @@ class _ProfileState extends State<Profile> {
                           iconData: Icons.play_arrow,
                           bgColor: Colors.green,
                           action: (){
-                            print(_getUserData());
                           },
                         ),
                       ),
